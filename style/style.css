@@ -44,3 +44,20 @@ nav ul li{
     margin-left: 1rem;
     font-weight: bold;
 }
+
+/* main */
+
+.banner{
+    padding-top: 4rem;
+    background-color: #dedede;
+}
+
+.banner-image{
+    width: 60%;
+    margin: 2rem 1.5rem ;
+}
+
+.banner-image img{
+    width: 100%;
+    height: auto;
+}
