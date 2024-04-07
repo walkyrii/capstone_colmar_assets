@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p, .logo span{
+    margin: auto;
+
+}
+
+nav ul{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+
+}
