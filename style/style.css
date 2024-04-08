@@ -101,9 +101,7 @@ nav ul li{
     background-color: rgb(88, 88, 88);
 }
 
-.campus-info{
-    width: 60%;
-}
+
 
 .campus-info p, .campus-info h1{
     margin-bottom: 1.5rem;
@@ -111,6 +109,7 @@ nav ul li{
 
 .campus{
     display: flex;
+    color: rgb(74, 74, 74);
 }
 
 .campus-details{
@@ -141,4 +140,9 @@ nav ul li{
 
 .cmp-dtl-info{
     margin-left: 1rem;
+}
+
+.cmp-dtl-info a{
+    color: rgb(85, 150, 226);
+    text-decoration: none;
 }
