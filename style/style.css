@@ -62,7 +62,7 @@ nav ul li{
 
 /* main section images */
 
-.banner-image, .campus-image{
+.banner-image, .campus-image-container{
     width: 60%;
     margin: 2rem 1.5rem ;
 }
@@ -107,4 +107,32 @@ nav ul li{
 
 .campus-info p, .campus-info h1{
     margin-bottom: 1.5rem;
+}
+
+.campus{
+    display: flex;
+}
+
+.campus-details{
+    display: flex;
+    align-items: center;
+}
+
+/* campus options */
+
+.campus-options{
+    width: 40%;
+}
+
+.cmp-dtl-img{
+    width: 35%;
+}
+
+.cmp-dtl-img img{
+    width: 100%;
+    height: auto;
+}
+
+.cmp-dtl-info p{
+    margin: 1rem 0;
 }
