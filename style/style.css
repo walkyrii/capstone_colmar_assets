@@ -115,6 +115,8 @@ nav ul li{
 .campus-details{
     display: flex;
     align-items: center;
+    background-color: white;
+    margin: 0.1rem;
 }
 
 /* campus options */
@@ -122,6 +124,8 @@ nav ul li{
 .campus-options{
     width: 40%;
     margin-top: 2rem;
+    background-color: rgb(216, 216, 216);
+    height: fit-content;
 }
 
 .cmp-dtl-img{
@@ -145,4 +149,12 @@ nav ul li{
 .cmp-dtl-info a{
     color: rgb(85, 150, 226);
     text-decoration: none;
+}
+
+.campus-details{
+    transition: color, 0s;
+}
+
+.campus-details:hover{
+    background-color: rgb(216, 216, 216);
 }
