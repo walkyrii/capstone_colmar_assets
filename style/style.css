@@ -27,11 +27,14 @@ header{
     color: gray;
 }
 
+.logo p{
+    font-weight: bold;
+}
+
 .logo p, .logo span{
     margin: auto;
     height: 2rem;
     font-size: 4vh;
-    font-weight: bold;
 }
 
 nav ul{
@@ -54,6 +57,7 @@ nav ul li{
     padding-top: 4rem;
     background-color: #dedede;
     display: flex;
+    color: rgb(88, 88, 88);
 }
 
 .banner-image{
