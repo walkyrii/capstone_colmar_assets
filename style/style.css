@@ -60,16 +60,18 @@ nav ul li{
     color: rgb(88, 88, 88);
 }
 
-.banner-image{
+/* main section images */
+
+.banner-image, .campus-image{
     width: 60%;
     margin: 2rem 1.5rem ;
 }
 
-.banner-image img{
+.banner-image img, .campus-image img{
     width: 100%;
     height: auto;
 }
-
+/*  */
 .banner-info{
     width: 30%;
     display: flex;
