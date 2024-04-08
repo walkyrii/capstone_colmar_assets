@@ -1,6 +1,10 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;+
+}
+
+html{
+    font-family: sans-serif;
 }
 
 /* header */
@@ -10,7 +14,6 @@ header{
     display: flex;
     justify-content: space-between;
     height: 4rem;
-    font-family: sans-serif;
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -27,7 +30,7 @@ header{
 .logo p, .logo span{
     margin: auto;
     height: 2rem;
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: bold;
 }
 
@@ -68,4 +71,25 @@ nav ul li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.banner-info h1{
+    font-size: 3.5rem;
+}
+
+.banner-info p{
+    font-size: xx-large;
+}
+
+.banner-info h1, .banner-info p{
+    margin-bottom: 2rem;
+}
+
+.banner-info button{
+    color: white;
+    border: none;
+    padding: 0.5rem 0;
+    width: 100%;
+    font-size: x-large;
+    background-color: rgb(88, 88, 88);
 }
