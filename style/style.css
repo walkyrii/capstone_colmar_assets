@@ -158,3 +158,17 @@ nav ul li{
 .campus-details:hover{
     background-color: rgb(216, 216, 216);
 }
+
+/* learning */
+
+.learning-choices{
+    width: 25%;
+}
+
+.lrn-chcs-img, .lrn-chcs-img img{
+    width: 100%;
+}
+
+.lrn-chcs-img img{
+    height: auto;
+}
