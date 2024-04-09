@@ -161,8 +161,19 @@ nav ul li{
 
 /* learning */
 
+.learning{
+    background-color: rgb(234, 235, 236);
+}
+
+.learning-h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+
 .learning-choices{
     width: 25%;
+    background-color: white;
+    margin: 2rem;
 }
 
 .lrn-chcs-img, .lrn-chcs-img img{
@@ -171,4 +182,29 @@ nav ul li{
 
 .lrn-chcs-img img{
     height: auto;
+}
+
+.learning-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* learnig choices informations */
+
+.lrn-chcs-info{
+    margin-left: 1rem;
+}
+
+.lrn-chcs-info h2{
+    margin: 1rem 0 0.5rem 0;
+
+}
+
+.lrn-chcs-info p{
+    margin:0.5rem 0 1.5rem 0;
+}
+
+.lrn-chcs-info a{
+    text-decoration: none;
 }
