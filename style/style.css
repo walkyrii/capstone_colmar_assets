@@ -7,6 +7,10 @@ html{
     font-family: sans-serif;
 }
 
+html h1, html h2{
+    color: rgb(74, 74, 74);
+}
+
 /* header */
 
 header{
@@ -57,7 +61,6 @@ nav ul li{
     padding-top: 4rem;
     background-color: #dedede;
     display: flex;
-    color: rgb(88, 88, 88);
 }
 
 /* main section images */
@@ -84,11 +87,11 @@ nav ul li{
     font-weight: 800
 }
 
-.banner-info p{
+.banner-info h2{
     font-size: x-large;
 }
 
-.banner-info h1, .banner-info p{
+.banner-info h1, .banner-info h2{
     margin-bottom: 2rem;
 }
 
@@ -163,6 +166,7 @@ nav ul li{
 
 .learning{
     background-color: rgb(234, 235, 236);
+    color: rgb(118, 118, 118);
 }
 
 .learning-h1{
@@ -203,8 +207,4 @@ nav ul li{
 
 .lrn-chcs-info p{
     margin:0.5rem 0 1.5rem 0;
-}
-
-.lrn-chcs-info a{
-    text-decoration: none;
 }
