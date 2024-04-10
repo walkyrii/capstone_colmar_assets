@@ -233,3 +233,37 @@ nav ul li{
 .exh-info h2{
     margin: 1.5rem 0 0.5rem 0;
 }
+
+.exh-cho-inf{
+    display: flex;
+    align-items: center;
+}
+
+.eci-img{
+    width: 35%;
+    margin: 1rem;
+}
+
+.eci-img img{
+    width: 100%;
+    height: auto;
+}
+
+.eci-info{
+    width: 50%;
+}
+
+.eci-info h2{
+    margin-bottom: 0.5rem;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem 4rem 2rem;
+}
+footer div{
+    display: flex;
+}
