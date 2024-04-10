@@ -267,3 +267,9 @@ footer{
 footer div{
     display: flex;
 }
+
+.terms a{
+    margin: 0 1rem;
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+}
