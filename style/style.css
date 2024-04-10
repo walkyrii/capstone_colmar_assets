@@ -208,3 +208,28 @@ nav ul li{
 .lrn-chcs-info p{
     margin:0.5rem 0 1.5rem 0;
 }
+
+/* exhibit */
+
+.exh-header{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.exh-container{
+    display: flex;
+}
+
+.exhibit-videoninfo{
+    width: 60%;
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.exh-vid, .exh-vid video{
+    width: 100%;
+    height: auto;
+}
+
+.exh-info h2{
+    margin: 1.5rem 0 0.5rem 0;
+}
